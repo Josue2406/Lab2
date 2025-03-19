@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente de Programación - ElevenLabs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e3a8a, #9333ea);
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center p-6 text-white">
+    <div class="bg-white shadow-2xl rounded-2xl p-8 max-w-3xl w-full text-center text-gray-900">
+        <h1 class="text-4xl font-extrabold mb-4 text-indigo-700">💻 Asistente de Programación</h1>
+        <p class="text-lg text-gray-700 mb-6">Pregunta sobre React, JavaScript, useState, useEffect, APIs y más.</p>
+        
+        <!-- Iconos de tecnologías -->
+        <div class="flex justify-center space-x-6 text-4xl text-indigo-600 mb-6">
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-node"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+        </div>
+        
+        <div class="border border-gray-300 rounded-lg overflow-hidden shadow-lg p-4 bg-gray-100">
+            <elevenlabs-convai agent-id="mp4kyrsEmk3d2lySerLK"></elevenlabs-convai>
+        </div>
+        
+        <p class="mt-6 text-gray-600">Tu asistente virtual está listo para ayudarte. ¡Empieza a preguntar! 🚀</p>
+    </div>
+    <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+</body>
+</html>
